@@ -11,14 +11,14 @@ router.get('/pageOne', function (req, res, next) {
     res.render('pageOne.jade', { title: 'Page 1' });
 });
 
+/* GET page two. */
+router.get('/pageTwo', function (req, res, next) {
+    res.render('pageTwo.jade', { title: 'Page 2' });
+});
+
 /* GET page three. */
 router.get('/pageThree', function (req, res, next) {
     res.render('pageThree.jade', { title: 'Page 3' });
 });
 
-/* GET page four. */
-router.get('/pageFour', function (req, res, next) {
-    res.render('pageFour.jade', { title: 'Page 4' });
-});
-
-module.exports = router; 
+module.exports = router;

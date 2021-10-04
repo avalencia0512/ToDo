@@ -16,5 +16,9 @@ router.get('/pageTwo', function (req, res, next) {
     res.render('pageTwo.jade', { title: 'Page 2' });
 });
 
+/* GET page four. */
+router.get('/pageFour', function (req, res, next) {
+    res.render('pageFour.jade', { title: 'Page 4' });
+});
 
 module.exports = router;
